@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+	<meta name="viewport" content="width=device-width, height=device-height" />
+ <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+html, body {
+	padding:0;
+	margin:0;
+	font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+	color:rgb(33, 40, 50);
+	background:#F5F5F5;
+}
+
+.page {
+	
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;	
+	width:400px;
+	margin:0 auto 0 auto;
+}
+
+
+.card {
+	display:flex;
+	flex-direction:column;
+	background:#ffffff;
+	margin-top:10px;
+	margin-left:10px;
+	border-radius:10px;
+	box-shadow: 0 2px 4px #CFCFCF;
+	padding:5px;
+	border:1px solid #Cfcfcf;
+	flex:0 0 auto;
+	width:320px;
+}
+
+.card:not-first-child {
+	border:0;
+}
+
+.card > span {
+	---color:rgb(18, 100, 163);
+	font-size:1em;
+	margin:10px 10px 15px 10px;
+	font-weight:bold;
+	color: #F57F17;
+}
+
+.card > .image {
+	margin:0;
+	width:auto;
+	height:300px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius:0;
+	box-sizing:border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size:2.5em;
+	font-weight:bold;
+	padding:10px;
+	text-align:center;
+	border-radius:8px;
+}
+
+.card > .image span {
+	color:#ffffff;
+	background:rgba(0,0,0,0.5);
+	padding:5px;
+	border-radius:4px;
+}
+
+.card > .image span:not(:first-child) {
+	margin-top:4px;
+}
+
+.card > p {
+	padding:0 10px 0 10px;
+	flex: 1 1 auto;
+	color:#999999;
+}
+
+h1 {
+	padding:0;
+	margin:0;
+	color:#ffffff;
+	font-size:2.5em;
+}
+
+h2 {
+	font-size:2em;
+	margin:0 0 10px 0;
+}
+
+h3 {
+	font-size:1em;
+	margin:0 0 10px 0;
+}
+
+.cta {
+	max-width:400px;
+	margin:0 auto 0 auto;
+	padding:20px;
+	box-sizing:border-box;
+}
+
+form {
+	max-width:800px;
+	margin:0 auto 30px auto;
+	text-align:center;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+.form-text {
+	border:2px solid rgb(231, 233, 237);
+	border-radius:4px;
+	background:#ffffff;
+	color:rgb(33, 40, 50);
+	padding:10px;
+	font-size:1em;
+	margin-right:10px;
+	margin:2px 0 0 0;
+	flex:1 1;
+}
+
+.form-submit {
+	background:rgb(88, 167, 0);
+	font-size:1em;		
+	border-radius:4px;
+	color:#ffffff;
+	padding:10px;
+	border:2px solid rgb(88, 167, 0);
+	cursor:pointer;
+	margin:2px 0 0 0;
+	flex:0 0 auto;
+	font-weight:bold;
+}
+
+.form-submit:hover{
+	background:rgb(88, 167, 0, 0.8);
+	border-color:rgb(88, 167, 0, 0.8);
+}
+</style>
+<title>Paprika</title>
+</head>
+<body><div class="page">
+	<div class="card">
+		<div class="image" style="background-image:url(hero.jpg);"><span>Paprika</span></div>
+		<p>Paprika is a network of food lovers like yourself.</p>
+	</div>
+
+	<div class="card">
+		<span>Eat with us</span>
+		<p>Be a part of a community or create one!</p>
+	</div>
+
+	<div class="card">
+		<div class="image" style="background-image:url(vegan.jpg);"><span>Be a part</span></div>
+		<p>Wether you're Vegan, Ketho, or something else be a part of a community or create one!</p>
+	</div>
+
+	<div class="card">
+		
+		<div class="image" style="background-image:url(japanese.jpg);"><span>Be curious</span></div>
+		<p>We're all eating everyday, just not the same thing. Discover what people are eating on the other side of the world.</p>
+	</div>
+
+	<div class="card">
+		
+		<div class="image" style="background-image:url(you.jpg);"><span>Be your own thing</span></div>
+		<p>Wether you're a chef or just want to learn to cook, you have something to share.</p>
+	</div>
+
+</div></body>
+</html>
