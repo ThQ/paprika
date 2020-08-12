@@ -21,8 +21,9 @@ html, body {
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;	
-	width:400px;
+	width:100%;
 	margin:0 auto 0 auto;
+	padding:10px;
 }
 
 
@@ -30,13 +31,15 @@ html, body {
 	display:flex;
 	flex-direction:column;
 	background:#ffffff;
-	margin:10px auto 0 auto;
+	margin:0 auto 10px auto;
 	border-radius:10px;
 	box-shadow: 0 2px 4px #CFCFCF;
 	padding:5px;
 	--border:1px solid #Cfcfcf;
 	flex:0 0 auto;
-	width:320px;
+	width:100%;
+	box-sizing:border-box;
+	max-width:400px;
 }
 
 .card:not-first-child {
@@ -157,11 +160,6 @@ form {
 	<div class="card">
 		<div class="image" style="background-image:url(hero.jpg);"><span>Paprika</span></div>
 		<p>Paprika is a network of food lovers like yourself.</p>
-	</div>
-
-	<div class="card">
-		<span>Eat with us</span>
-		<p>Be a part of a community or create one!</p>
 	</div>
 
 	<div class="card">
