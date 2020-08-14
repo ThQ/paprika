@@ -14,7 +14,9 @@ html, body {
 	font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
 	color:rgb(33, 40, 50);
 	background:#F5F5F5;
-	font-size:1.1em;
+	font-size:1em;
+	width:100vw;
+	box-sizing:border-box;
 }
 
 .page {
@@ -23,6 +25,7 @@ html, body {
 	flex-direction:row;
 	flex-wrap:wrap;	
 	width:100%;
+	box-sizing:border-box;
 	max-width:400px;
 	margin:0 auto 0 auto;
 	padding:0 2em 2em 2em;
@@ -206,10 +209,12 @@ input[type="submit"] {
 	flex-direction:row;
 	align-items:center;
 	justify-content:center;
-
-	width:100%;
-	box-sizing:border-box;
 	max-width:400px;
+	width:100%;
+}
+
+.playstore > img {
+	margin-right:5px;
 }
 
 </style>
