@@ -112,7 +112,7 @@ html, body {
 .card > p {
 	padding:0 10px 0 10px;
 	flex: 1 1 auto;
-	--color:#999999;
+	text-align:center;
 }
 
 h1 {
@@ -177,6 +177,23 @@ input[type="submit"] {
 	background:rgb(88, 167, 0, 0.8);
 	border-color:rgb(88, 167, 0, 0.8);
 }
+
+.footer {
+	background:#254144;
+	padding:20px;
+	color:#797e84;
+	margin:0 auto 0 auto;
+	box-sizing:border-box;
+	width:100%;
+	text-align:center;
+}
+
+.footer > img {
+	border-radius:50%;
+	box-shadow: 0 4px 5px #2F2F2F;
+	margin:0 10px 0 10px;
+	
+}
 </style>
 <title>Paprika</title>
 </head>
@@ -186,7 +203,6 @@ input[type="submit"] {
 		<div class="image" style="background-color:#254144;background-image:url(hero-small.jpg);">
 			<span style="font-size:1.6em;">Paprika</span>
 		</div>
-		<p style="text-align:right;"><strong><em>The app for food lovers.</em></strong></p>
 	</div>
 
 	<div class="card" style="text-align:center;width:100%;border:2px solid #DADADA;padding:20px;font-size:1.3em;">
@@ -214,5 +230,14 @@ input[type="submit"] {
 		<p>Wether you're a chef or just want to learn to cook, you have something to share.</p>
 	</div>
 
-</div></body>
+	
+
+</div>
+<div class="footer">
+		<p><strong>Paprika</strong> is being cooked with ❤️</p>
+		<img src="sophie.png" />
+		<img src="nico.png" />
+		<img src="caroline.png" />
+	</div>
+</body>
 </html>
