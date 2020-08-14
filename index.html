@@ -63,7 +63,6 @@ html, body {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	border-radius:0;
 	box-sizing:border-box;
 	display: flex;
 	flex-direction: column;
@@ -74,6 +73,17 @@ html, body {
 	padding:10px;
 	text-align:center;
 	border-radius:8px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.card > .image > div {
+	
+	height:100%;
+	width:100%;
+	position:relative;
 }
 
 .card > .image span {
@@ -81,6 +91,7 @@ html, body {
 	background:rgba(0,0,0,0.5);
 	padding:5px;
 	border-radius:4px;
+
 }
 
 .card > .image span:not(:first-child) {
@@ -160,32 +171,35 @@ input[type="submit"] {
 </head>
 <body><div class="page">
 	<div class="card">
-		<div class="image" style="background-image:url(hero.jpg);"><span style="font-size:2em;">Paprika</span></div>
+
+		<div class="image" style="background-color:#254144;background-image:url(hero-small.jpg);">
+			<span style="font-size:1.8em;">Paprika</span>
+		</div>
 		<p style="text-align:right;">The app for food lovers.</p>
 	</div>
 
 	<div class="card" style="text-align:center;">
-		<p><strong>Share what you're eating and take inspirations from others</strong></p>
+		<p><strong>Share what you're eating and get inspiration from others</strong></p>
 		<input type="text" placeholder="Enter your e-mail address" />
 		<input type="submit" value="Join the waiting list" />
 	</div>
 
 	<div class="card">
-		<div class="image" style="background-image:url(vegan.jpg);"><span>Be a part</span></div>
-		<p>Wether you're Vegan, Ketho, or something else be a part of a community or create one!</p>
+		<div class="image" style="background-color:#878579;background-image:url(vegan.jpg);"><span>Be a part</span></div>
+		<p>Wether you're Vegan, Ketho, or something else, be a part of a community or create one!</p>
 	</div>
 
 	
 
 	<div class="card">
 		
-		<div class="image" style="background-image:url(japanese.jpg);"><span>Be curious</span></div>
+		<div class="image" style="background-color:#D8CCB3;background-image:url(japanese-small.jpg);"><span>Be curious</span></div>
 		<p>We're all eating everyday, just not the same thing. Discover what people are eating on the other side of the world.</p>
 	</div>
 
 	<div class="card">
 		
-		<div class="image" style="background-image:url(you.jpg);"><span>Be your own thing</span></div>
+		<div class="image" style="background-color:#F8658E;background-image:url(you-small.jpg);"><span>Be your own thing</span></div>
 		<p>Wether you're a chef or just want to learn to cook, you have something to share.</p>
 	</div>
 
