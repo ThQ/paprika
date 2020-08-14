@@ -151,16 +151,7 @@ h3 {
 	box-sizing:border-box;
 }
 
-form {
-	max-width:800px;
-	margin:0 auto 30px auto;
-	text-align:center;
-	display:flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-}
-
-input[type="text"] {
+input[type="email"] {
 	border:2px solid #cacaca;
 	border-radius:10px;
 	background:#ffffff;
@@ -185,7 +176,7 @@ input[type="submit"] {
 	font-weight:bold;
 }
 
-.form-submit:hover{
+input[type="submit"]:hover {
 	background:rgb(88, 167, 0, 0.8);
 	border-color:rgb(88, 167, 0, 0.8);
 }
@@ -239,11 +230,11 @@ input[type="submit"] {
 
 	<div class="playstore"><img src="play.png" /> Soon on the Play Store !</div>
 
-	<div class="card" style="text-align:center;width:100%;border:2px solid #DADADA;padding:20px;font-size:1.3em;">
+	<form class="card" style="text-align:center;width:100%;border:2px solid #DADADA;padding:20px;font-size:1.3em;" action="https://app.us17.list-manage.com/subscribe/post?u=174eac7813d8fbfde75bda794&amp;id=bb15d47e35" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 		<p><strong>Share what you're eating and get inspiration from others</strong></p>
-		<input type="text" placeholder="Enter your e-mail address" />
+		<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your e-mail address" required />
 		<input type="submit" value="Join the waiting list" />
-	</div>
+	</form>
 
 	<div class="card">
 		<div class="image" style="background-color:#878579;background-image:url(vegan.jpg);"><span>Be a part</span></div>
